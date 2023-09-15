@@ -1,0 +1,161 @@
+.aasan-private-body {
+  /* background-image: linear-gradient(to left, #cfdaf8, #dbe7f7); */
+  /* background-color: white; */
+  height: 100vh;
+}
+.aasan-sidebar-row {
+  --bs-gutter-x: -0.5rem !important;
+}
+.aasan-container {
+   /* margin-left: 5% !important; 
+  margin-right: 5% !important; 
+  top:0; 
+   top: 30px;  
+  right: 5%;
+   margin-top: 2% !important; 
+   position: relative;
+  margin-top: 50px;
+   top: -10px;  */
+  
+   position: absolute;
+  top: 5%;
+  left: 5%; 
+  width: 90%; 
+  z-index: 1; 
+  background-color: white; 
+  padding: 20px; 
+  /* box-shadow: 0px 0px 5px lightgrey;  */
+  border-radius: 15px; 
+}
+/* .aasan-sidebar { */
+  /* border: none !important; */
+  /* border-radius: 10px; */
+  /* height: 515px; */
+  /* top: 0; 
+  background-color: #1061a1; */
+  /* width: 200px; */
+  /* flex-direction: column !important;
+  position: relative;
+   margin-top: 0px;   
+   margin-left: 15px; */
+
+/* } */
+.aasan-sidebar {
+  border: 2px solid #fff; /* Adjust the border properties as needed */
+  border-radius: 10px;
+  top: 0; 
+  background-color: #1061a1;
+   width: 210px; 
+  flex-direction: column !important;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 15px;
+}
+
+.aasan-content {
+  padding-left: 2% !important;
+  padding-right: 2% !important;
+  padding-top: 1% !important;
+}
+.aasan-option-link {
+  padding: 35px !important;
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 25px !important;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  transition: 0.3s;
+}
+.aasan-option-link .active {
+  background-image: linear-gradient(to left, white, #1061a1);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 45px !important;
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 25px !important;
+}
+.aasan-option-link:hover {
+   background-image: linear-gradient(to left, white, #1061a1); 
+  border-bottom-left-radius: 50px;
+  padding: 45px !important;
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 25px !important; 
+}
+.aasan-heading {
+  /* font-weight: bold; */
+  /* margin-top: -100px;
+  /* margin-right: 120px; */ 
+  font-weight: bold;
+  position: absolute;
+  top: 7%; /* Position at the top of the viewport */
+  left: 25%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  /* background-color: white;  */
+  padding: 10px 20px; /* Add padding for spacing */
+  border-radius: 5px; /* Add border radius for styling */
+  z-index: 2; 
+  /* background-color: grey; */
+  /* box-shadow: 0px 0px 5px lightgrey;  */
+   /* background-color: grey; */
+  
+}
+
+.aasan-table {
+   margin-top: 20px !important;
+  border-collapse: separate;
+  border-spacing: 0 0.5em;
+  width: 100%;
+}
+table th:last-child {
+  /* background-color: white !important; */
+  border-radius: 0px 20px 20px 0px;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 0.5em;
+}
+table td:first-child {
+  border-radius: 20px 0 0 20px;
+}
+table td {
+  padding-top: 15px !important;
+  height: 50px !important;
+  background-color: white !important;
+  font-weight: bold;
+}
+table td:hover {
+  padding-top: 15px !important;
+  height: 50px !important;
+  background-color: white !important;
+}
+table td:last-child {
+  background-color: white !important;
+  border-radius: 0px 20px 20px 0px;
+}
+.aasan-checkbox {
+  padding-top: 10px !important;
+  padding-left: 10px !important;
+  margin-left: 10px !important;
+}
+
+.aasan-card {
+  border: none !important;
+  box-shadow: 0px 0px 5px lightgrey;
+}
+label {
+  font-weight: bold;
+}
+
+.aasan-profile {
+  background-color: transparent !important;
+  border: none !important;
+  color: black !important;
+  /* box-shadow: 0px 0px 5px lightgrey; 
+   background-color: grey; */
+}
+
+.aasan-loader {
+  width: 200px !important;
+}
